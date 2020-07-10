@@ -19,11 +19,9 @@ class Layout extends React.Component {
   }
   render() {
     const { children } = this.props;
-    const title = "Welcome to Nextjs";
-    return (
+    return (    
       <div>
         <Head>
-          <title>{title}</title>
           <meta charSet="utf-8" />
           <meta
             name="viewport"
@@ -53,7 +51,7 @@ class Layout extends React.Component {
               .navbar-brand {
                 font-size: 28px !important;
                 font-weight: bold;
-                padding: 0 15px;
+                padding: 0px;
                 height: 80px;
                 line-height: 80px;
               }
