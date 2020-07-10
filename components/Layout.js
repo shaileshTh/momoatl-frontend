@@ -87,11 +87,11 @@ class Layout extends React.Component {
               </Link>
             </NavItem>
 
-            <NavItem>
+            {/* <NavItem>
               <Link href="/signup">
                 <a className="nav-link"> Sign Up</a>
               </Link>
-            </NavItem>
+            </NavItem> */}
             </div>
           </Nav>
         </header>
